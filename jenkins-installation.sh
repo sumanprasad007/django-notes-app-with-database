@@ -1,5 +1,15 @@
 #!/bin/bash
 
+sudo apt update
+sudo apt install docker.io -y
+
+sudo usermod -aG docker $USER
+newgrp docker
+
+sudo apt update
+sudo apt install openjdk-17-jre -y
+java -version
+
 # Import Jenkins GPG key
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 
