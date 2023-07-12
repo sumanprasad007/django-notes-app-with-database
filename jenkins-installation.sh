@@ -14,3 +14,4 @@ sudo apt-get install jenkins -y
 
 # Display initial admin password
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
