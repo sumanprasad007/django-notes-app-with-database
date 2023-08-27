@@ -1,31 +1,6 @@
 # Django Notes App
 ![image](https://github.com/sumanprasad007/django-notes-app-with-database/assets/55047333/d682ac7e-e6cf-445c-832b-fe25c2a746eb)
 
-
-## Requirements
-1. Python 3.9
-2. Node.js
-3. React
-
-## Installation
-1. Clone the repository
-```
-git clone https://github.com/LondheShubham153/django-notes-app.git
-```
-
-2. Build the app
-```
-docker build -t notes-app .
-```
-
-3. Run the app
-```
-docker run -d -p 8000:8000 notes-app:latest
-```
-
-#
-
-
 # **📍** Introduction:
 
 In this tutorial, we will guide you through the process of hosting a two-tier Flask application with a MySQL database using Docker Compose. This architecture allows you to separate your frontend (Flask application) from your backend (MySQL database) and deploy them together using containers. We assume you have a basic understanding of Git, Docker, and Python. Let's get started! 🚀
@@ -41,7 +16,12 @@ Before we dive in, make sure you have the following prerequisites in place:
 * Docker is installed and running on your system. You should also be added to the Docker group to execute Docker commands without `sudo`.
     
 * Internet connectivity to clone the GitHub repository and download Docker images.
-    
+
+### Requirements
+1. Python 3.9
+2. Node.js
+3. React
+
 
 ### **Step 1: Clone the Repository 📂**
 
